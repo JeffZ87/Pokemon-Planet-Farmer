@@ -6,6 +6,8 @@ A simple farming program that remove unnecessary grinding in Pokemon Planet :)
 
 `pip install pytesseract selenium numpy Pillow Wheel Playsound`
 
+Also download Tesseract OCR from its github site.
+
 # Setup
 
 * Update 4 attributes called: `{path to browser exe}`, `{username}`, `{password}`, and `{path to tesseract}`
@@ -38,3 +40,5 @@ Doesn't actually catch the pokemon. It plays a notification sound to let user kn
 * Enable auto fishing using OpenCV
 * Enable auto mining
 * Enhance potion use with image matching via OpenCV
+* Handle Evolution and Learn New Move events
+* 
