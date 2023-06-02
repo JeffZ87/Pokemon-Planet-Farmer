@@ -11,8 +11,9 @@ Also download Tesseract OCR from its github site.
 # Setup
 
 * Update 4 attributes called: `{path to browser exe}`, `{username}`, `{password}`, and `{path to tesseract}`
-* Update arrays of pokemon actions
-* Update `battle_log` pixel location to adjust for different screen size. Reference demo image `battle-log.png`.
+* Update `run_poke`, `fight_poke`, and `catch_poke` for different actions when encountering Pokemons
+* Update `battle_log` pixel location to adjust for different screen size. Reference demo image `battle-log.png`
+* Update pixel location for `cropped_image` according to screen size
 
 ## Optional Setup
 * Update `use_potion` and `use_recover_move` as a auto recovery option when you pokemon gets injured
@@ -21,7 +22,7 @@ Also download Tesseract OCR from its github site.
 
 # How it works
 
-This program walks your character left and right (you would want left and right barriers). After encountering a wild pokemon, the program detects which pokemon was encountered and performs one of three action: fight, run, and catch. 
+This program walks your character left and right (you would want left and right barriers in the map). After encountering a wild pokemon, the program detects which pokemon was encountered and performs one of three action: fight, run, and catch. 
 
 ## Fight
 
